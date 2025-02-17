@@ -1,4 +1,4 @@
-# get1stVideoFrame
+# frame-extractor.py
 Ever had a folder full of videos and needed the first frame of each video in a PNG file?
 
 # Video Frame Extractor
