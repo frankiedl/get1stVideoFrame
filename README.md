@@ -1,7 +1,4 @@
-# frame-extractor.py
-Ever had a folder full of videos and needed the first frame of each video in a PNG file?
-
-# Video Frame Extractor
+# get1stVideoFrame
 
 A Python utility that automatically extracts the first frame from video files in a specified directory. This tool is useful for creating thumbnails or previews from a collection of videos.
 
@@ -28,8 +25,8 @@ The script will automatically install the required dependencies if they're not p
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/video-frame-extractor.git
-cd video-frame-extractor
+git clone https://github.com/yourusername/get1stVideoFrame.git
+cd get1stVideoFrame
 ```
 
 2. (Optional) Create and activate a virtual environment:
@@ -52,14 +49,14 @@ pip install -r requirements.txt
 
 Run the script by providing the directory path as an argument:
 ```bash
-python frame_extractor.py /path/to/video/directory
+python get1stVideoFrame.py /path/to/video/directory
 ```
 
 ### Interactive Mode
 
 Run the script without arguments to enter interactive mode:
 ```bash
-python frame_extractor.py
+python get1stVideoFrame.py
 ```
 You'll be prompted to enter the directory path.
 
@@ -102,17 +99,16 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## Acknowledgments
-
-- OpenCV team for the excellent video processing library
-- tqdm developers for the progress bar functionality
-
 ## Support
 
 If you encounter any issues or have questions, please:
 1. Check the existing issues in the GitHub repository
 2. Create a new issue with a detailed description of your problem
 3. Include any relevant error messages and your environment details
+
+## Project Status
+
+This project is actively maintained. Feel free to create issues for bugs or feature requests.
 
 ## Requirements.txt
 
